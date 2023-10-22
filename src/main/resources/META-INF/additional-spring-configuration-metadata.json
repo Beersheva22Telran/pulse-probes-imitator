@@ -1,0 +1,39 @@
+{
+	"properties": [
+		{
+			"name": "app.probes.imitator.value.min",
+			"type": "java.lang.String",
+			"description": "Minimal value of pulse"
+		},
+		{
+			"name": "app.probes.imitator.value.max",
+			"type": "java.lang.String",
+			"description": "Maximum value of pulse"
+		},
+		{
+			"name": "app.probes.imitator.jump.prob",
+			"type": "java.lang.String",
+			"description": "Probobility of jump"
+		},
+		{
+			"name": "app.probes.imitator.nojump.max.multiplier",
+			"type": "java.lang.String",
+			"description": "multiplier for new value computation (no jump)"
+		},
+		{
+			"name": "app.probes.imitator.jump.multiplier",
+			"type": "java.lang.String",
+			"description": "multiplier for new value computation (jump)"
+		},
+		{
+			"name": "app.probes.imitator.increase.prob",
+			"type": "java.lang.String",
+			"description": "probobility of increasing pulse value"
+		},
+		{
+			"name": "app.probes.imitator.patients.amount",
+			"type": "java.lang.String",
+			"description": "number of patients"
+		}
+	]
+}
